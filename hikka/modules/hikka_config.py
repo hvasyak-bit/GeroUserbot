@@ -1,8 +1,6 @@
-# ©️ Dan Gazizullin, 2021-2023
-# This file is a part of Hikka Userbot
-# 🌐 https://github.com/hikariatama/Hikka
-# You can redistribute it and/or modify it under the terms of the GNU AGPLv3
-# 🔑 https://www.gnu.org/licenses/agpl-3.0.html
+# ©️ Kerdik, 2025
+# This file is a part of GeroUserbot
+# 🌐 https://github.com/hvasyak-bit/GeroUserbot
 
 import ast
 import contextlib
@@ -26,10 +24,10 @@ NUM_ROWS = 5
 
 
 @loader.tds
-class HikkaConfigMod(loader.Module):
-    """Interactive configurator for Hikka Userbot"""
+class GeroUserbotConfigMod(loader.Module):
+    """Interactive configurator for Gero Userbot"""
 
-    strings = {"name": "HikkaConfig"}
+    strings = {"name": "GeroConfig"}
 
     @staticmethod
     def prep_value(value: typing.Any) -> typing.Any:
